@@ -1,9 +1,8 @@
 const noms = [
-    "Alice", "Bob", "Charlie", "David", "Eve", "Frank", "Grace", "Hannah", 
-    "Ivan", "Judy", "Kyle", "Laura", "Mike", "Nina", "Oscar", "Paul", 
-    "Quinn", "Rose", "Steve", "Tina", "Uma", "Vince", "Wendy", "Xander", 
-    "Yasmin", "Zane", "Liam", "Noah", "Emma", "Olivia", "Ava", "Sophia", 
-    "Isabella", "Mia", "Amelia", "Harper", "Ethan", "Mason", "Logan", "James"
+   "BOGUE   ","PEKPELI   ","KOUEVI   ","KPOYIZOUN   ","AKAKPO   ","SAVI   ","TELOU   ","ADJEGAN   ", "AMEBLE   ","ATTIOGBE  ",
+   "BADANE   ","BARRY   ","BEGUEMSI   ","DEGBE   ","DEGBEY   ","DOUFFAN   ",
+   "DUGA   ","EDITCHAO   ","EKPE   ","GANDA   ","HOUNKANLY   ","HOUNKPE   ","KOGON   ","LABOU   ","LAWADAN   ","NOVIVO   ","NIJNYABU   ","OSSEYI   ","SAMAN   ","SANOU   ",
+   "SOHE   ","SUNDAY   ","TCHAGAFOU   ","TCHAO   ","TCHINDO   ","TIDATOA   ","TOURE   ","AGBEGNIGAN   ","AKALO   ","KATATCHOIY   "
 ];
 
 
@@ -45,7 +44,7 @@ function telechargerPDF() {
         theme: 'grid'
     });
 
-    doc.text("Tableau de Répartition des Groupes", 10, 10); // Titre
+    doc.text("Tableau de Répartition des Groupes Salle C", 10, 10); // Titre
     doc.save("tableau_groupes.pdf");
 }
     // Ajouter un écouteur d'événement sur le bouton pour télécharger le PDF
