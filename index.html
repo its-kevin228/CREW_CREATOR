@@ -1,57 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Crew_creator</title>
-</head>
-<body>
-    
-    <!DOCTYPE html>
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Créateur de Groupes Aléatoires</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-    
-        <table id="groupTable">
-            <thead>
-                <tr>
-                    
-                    <th>Groupe 1</th>
-                    <th>Groupe 2</th>
-                    <th>Groupe 3</th>
-                    <th>Groupe 4</th>
-                    <th>Groupe 5</th>
-                    <th>Groupe 6</th>
-                    <th>Groupe 7</th>
-                    <th>Groupe 8</th>
-                    <th>Groupe 9</th>
-                    <th>Groupe 10</th>
-                </tr>
-            </thead>
-            <tbody>
-                
-                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                  
-                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
-                
-            </tbody>
-        </table>
-    
-        
-        <button onclick="genererGroupes()">Créer</button>
-    
-        <script src="script.js"></script>
-    </body>
-    </html>
 
-<script src="script.js"></script>
-</body>
+<!doctype html>
+<html lang="en" class="h-100" data-bs-theme="auto">
+  <head>
+    <script src="https://getbootstrap.com/docs/5.3/assets/js/color-modes.js"></script>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.122.0">
+    <title>Cover Table Salle C</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/cover/">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@docsearch/css@3">
+
+<link href="https://getbootstrap.com/docs/5.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<!-- Custom styles for this template -->
+<link href="cover.css" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.13/jspdf.plugin.autotable.min.js"></script>
+
+
+  </head>
+
+
+  <body class="d-flex h-100 text-center text-bg-dark">
+    
+    <table id="groupTable">
+        <thead>
+            <tr>
+                
+                <th>Groupe 1</th>
+                <th>Groupe 2</th>
+                <th>Groupe 3</th>
+                <th>Groupe 4</th>
+                <th>Groupe 5</th>
+                <th>Groupe 6</th>
+                <th>Groupe 7</th>
+                <th>Groupe 8</th>
+                <th>Groupe 9</th>
+                <th>Groupe 10</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+              
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            <tr><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr>
+            
+        </tbody>
+    </table>
+
+    
+    <button onclick="genererGroupes()" id="creer">Créer</button>
+    <button id="telecharger">Télécharger en PDF</button>
+    <script src="script.js"></script>
+   
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <footer class="mt-auto text-white-50">
+    <p>Cover Table for <a href="#" class="text-white">Salle C</a>, by <a href="https://github.com/its-kevin228/CREW_CREATOR" class="text-white">Ted & The_dove</a>.</p>
+  </footer>
+</div>
+<script src="https://getbootstrap.com/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+    </body>
 </html>
